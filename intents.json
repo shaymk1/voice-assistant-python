@@ -1,0 +1,76 @@
+{
+    "intents": [
+        {
+            "_comment": "this is tag 1",
+            "tag": "greetings",
+            "patterns": [
+                "hello",
+                "what's up",
+                "yebo-yes",
+                "hi",
+                "unjani",
+                "o kae",
+                "Good Day"
+            ],
+            "responses": [
+                "hello",
+                "how can i help you?"
+            ]
+        },
+        {
+            "_comment": "this is tag 2",
+            "tag": "create_note",
+            "patterns": [
+                "please create a new note",
+                "new note",
+                "create a note",
+                "I want to create a note"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "_comment": "this is tag 3",
+            "tag": "add_todo",
+            "patterns": [
+                "I want to add a todo",
+                "add a new todo",
+                "add a todo to my list",
+                "new item to my todo list"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "_comment": "this is tag 4",
+            "tag": "show_todos",
+            "patterns": [
+                "show my todos",
+                "what are my todos",
+                "what is on my todo list"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "_comment": "this is tag 5",
+            "tag": "exit",
+            "patterns": [
+                "Bye",
+                "Bye-Bye",
+                "stop",
+                "ema",
+                "Quit",
+                "i want to quit",
+                "Good Bye",
+                "I want to go"
+            ],
+            "responses": [
+                ""
+            ]
+        }
+    ]
+}
